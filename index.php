@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html>
-<body>
+<?php
+include "header.php";
+?>
+    <div class='container'>
+    <h1>Hello, world!</h1>
+    </div>
 
 <?php
-echo "My first PHP script!";
-echo "my name is parvez";
-
+include "footer.php";
 ?>
-
-</body>
-</html>
