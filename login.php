@@ -1,19 +1,29 @@
+
+
+
 <?php
 include "header.php";
-include "database.php";
-$sql = "SELECT email, password FROM users";
-$result = $conn->query($sql);
+?>
+    <div class='container'>
+        <form action='Action/login.php'>
+            <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                     <input type="email" class="form-control" id="inputEmail3">
+                </div>
+            </div>
 
-if ($result->num_rows > 0) {
-  // output data of each row
-  while($row = $result->fetch_assoc()) {
-      if ($row["email"]=='parvez15-2468@diu.edu.bd' && $row["password"]=='mdzevrap')
-    echo 'success';
-  }
-} else {
-  echo "0 results";
-}
-$conn->close();
+            <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3">
+                </div>
+            </div>
 
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+    </div>
+
+<?php
 include "footer.php";
 ?>
