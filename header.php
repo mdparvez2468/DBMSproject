@@ -11,3 +11,54 @@
     <title>Hello, world!</title>
   </head>
   <body>
+
+  <header class="container">
+      <div class="container text-center">
+          <h1 class="m-4"><b><u>DIU Transport Management System</u></b></h1>
+          <img src="images/diu-trans.jpg">
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                  <label for="inputState" class="form-label">Leaving From:*</label>
+                  <select id="inputState" class="form-select">
+                      <option selected>permanent</option>
+                      <option>permanent</option>
+                      <option>permanent</option>
+                      <option>permanent</option>
+                  </select>
+
+              </div>
+              <div class="col">
+                  <label for="inputState" class="form-label">Leaving From:*</label>
+                  <select id="inputState" class="form-select">
+                      <option selected>permanent</option>
+                      <option>permanent</option>
+                      <option>permanent</option>
+                      <option>permanent</option>
+                  </select>
+
+              </div>
+              <div class="col">
+                  <label for="inputState" class="form-label">Leaving From:*</label>
+                  <select id="inputState" class="form-select">
+                      <option selected>permanent</option>
+                      <option>permanent</option>
+                      <option>permanent</option>
+                      <option>permanent</option>
+                  </select>
+
+              </div>
+              <div class="col">
+                  <label for="inputState" class="form-label">Leaving From:*</label>
+                  <select id="inputState" class="form-select">
+                      <option selected>permanent</option>
+                      <option>permanent</option>
+                      <option>permanent</option>
+                      <option>permanent</option>
+                  </select>
+
+              </div>
+          </div>
+      </div>
+  </header>
